@@ -149,6 +149,7 @@ namespace RockPaperScissors
                             myPlayer.SoundLocation = @"C:\Users\mdski\OneDrive\Desktop\ElevenFiftyProjects\RockPaperScissors\celebration.wav";
                             myPlayer.PlaySync();
                         }
+
                         if (cpuScore >= 3)
                         {
                             Console.WriteLine("You lost to the CPU!!!\n");
