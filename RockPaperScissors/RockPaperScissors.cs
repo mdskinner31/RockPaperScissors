@@ -158,7 +158,7 @@ namespace RockPaperScissors
                             myPlayer.PlaySync();
 
                         }
-                        Console.WriteLine("Play Again? (YES/NO)");
+                        Console.WriteLine("Play Again? (Y/N)");
                         string repeat = Console.ReadLine();
                         repeat = repeat.ToUpper();
                         if (repeat == "Y")
